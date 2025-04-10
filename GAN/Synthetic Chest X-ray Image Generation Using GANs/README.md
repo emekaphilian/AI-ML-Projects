@@ -33,7 +33,9 @@ The aim of this project is to explore the potential of GANs in creating high-qua
 - Python 3.x  
 - TensorFlow >= 2.x  
 - OpenCV  
-- NumPy, Matplotlib, Pandas  
+- NumPy, Matplotlib, Pandas
+- 📁 Dataset Link:  
+[Kaggle - Chest X-ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 ### Installation
 
