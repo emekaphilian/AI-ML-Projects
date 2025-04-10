@@ -1,70 +1,81 @@
-# Synthetic Chest X-ray Image Generator Using GAN
+# Synthetic Chest X-ray Image Generation Using GANs
 
-This project leverages Generative Adversarial Networks (GANs) to generate synthetic chest X-ray images for the purpose of privacy-preserving medical AI model training. The aim is to help researchers and developers access realistic, anonymized medical image data.
+This project uses Generative Adversarial Networks (GANs) to generate synthetic chest X-ray images. It is designed for privacy-preserving medical AI applications, especially in contexts where patient data protection is critical.
 
-## 📂 Dataset
+## 🧠 Overview
 
-The dataset used is the "Chest X-ray Images (Pneumonia)" dataset from Kaggle:
-- https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+The aim of this project is to explore the potential of GANs in creating high-quality synthetic medical images that can be used for training machine learning models without compromising patient privacy. It focuses on chest X-ray datasets and leverages deep learning techniques to build and train a GAN.
 
-It contains:
-- **Training**, **Validation**, and **Testing** sets
-- Two classes: `NORMAL` and `PNEUMONIA`
-
-## 🧪 Project Structure
-
-```bash
-├── Chest_Xray_GAN_Project.ipynb   # Full Colab notebook with training, evaluation, and results
-├── streamlit_app.py               # Streamlit app to generate and visualize images
-├── models/                        # Trained Generator model
-├── outputs/                       # Generated images and sample grids
-└── README.md                      # This file
-```
-
-## 🔍 Key Features
-
-- **Preprocessing:** Images resized to 28x28 grayscale and normalized to [-1, 1]
-- **GAN Architecture:** Custom Generator and Discriminator built using TensorFlow/Keras
-- **Loss Visualization:** Generator and Discriminator loss curves plotted
-- **Sample Grids:** Images generated during training for visual inspection
-- **Evaluation:** FID score for quality assessment
-- **App Deployment:** Streamlit app to interact with the generator
-- **Export Options:** Project exported as HTML, PDF, and GitHub-ready
-
-## 🚀 Running Locally
-
-```bash
-# Install dependencies
-pip install streamlit tensorflow matplotlib numpy pillow
-
-# Run the app
-streamlit run streamlit_app.py
-```
-
-## 🧠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - TensorFlow / Keras
+- NumPy, Pandas
+- OpenCV
 - Matplotlib
-- Streamlit
-- NumPy
+- Google Colab (for training)
 
-## 📈 Results
+## ⚙️ How It Works
 
-- FID Score: ~[insert value here]
-- Training stabilized around epoch [insert epoch]
-- Generator able to produce distinguishable synthetic images from noise
+1. **Data Preparation**: Chest X-ray images are loaded from a structured directory (`train`, `test`, `val`) using OpenCV and NumPy.
+2. **GAN Architecture**: A custom GAN is implemented, consisting of:
+   - Generator
+   - Discriminator
+3. **Training Loop**: The GAN is trained to generate realistic X-ray images over multiple epochs.
+4. **Visualization**: Generated images are saved and displayed after training steps to monitor progress.
 
-## 📄 Conclusion
+## 🚀 Getting Started
 
-This project demonstrates how GANs can be used to create realistic medical data for privacy-focused AI training. It serves as a foundational step towards building privacy-preserving synthetic datasets in healthcare.
+### Prerequisites
 
-## 💼 Author
+- Python 3.x
+- TensorFlow >= 2.x
+- OpenCV
+- NumPy, Matplotlib, Pandas
 
-**Emeka Ogbonna**  
-[LinkedIn](https://www.linkedin.com/in/emeka-ogbonna-946828225/) | ogbonnaemeka665@gmail.com
+### Installation
 
----
-*For educational purposes only. Ensure any synthetic data generation complies with relevant privacy laws and institutional policies.*
+Clone the repository:
 
+```bash
+git clone https://github.com/yourusername/synthetic-xray-gan.git
+cd synthetic-xray-gan
+```
 
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+To train the GAN:
+
+```bash
+python synthetic_xray_gan.py
+```
+
+Ensure that your chest X-ray dataset is structured and the path is correctly set in the script.
+
+## 📁 Directory Structure
+
+```
+synthetic-xray-gan/
+│
+├── synthetic_xray_gan.py       # Main GAN training script
+├── README.md                   # Project documentation
+└── results/                    # (Optional) Generated images output
+```
+
+## 📊 Results
+
+Sample output images will be generated and saved to disk after training. You can monitor model progress visually.
+
+## 🙌 Credits
+
+Inspired by research in privacy-preserving AI and the use of GANs for synthetic medical data generation.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
