@@ -1,3 +1,5 @@
+---
+
 # Synthetic Chest X-ray Image Generation Using GANs
 
 This project uses Generative Adversarial Networks (GANs) to generate synthetic chest X-ray images. It is designed for privacy-preserving medical AI applications, especially in contexts where patient data protection is critical.
@@ -8,30 +10,30 @@ The aim of this project is to explore the potential of GANs in creating high-qua
 
 ## 🛠️ Technologies Used
 
-- Python
-- TensorFlow / Keras
-- NumPy, Pandas
-- OpenCV
-- Matplotlib
+- Python  
+- TensorFlow / Keras  
+- NumPy, Pandas  
+- OpenCV  
+- Matplotlib  
 - Google Colab (for training)
 
 ## ⚙️ How It Works
 
-1. **Data Preparation**: Chest X-ray images are loaded from a structured directory (`train`, `test`, `val`) using OpenCV and NumPy.
+1. **Data Preparation**: Chest X-ray images are loaded from a structured directory (`train`, `test`, `val`) using OpenCV and NumPy.  
 2. **GAN Architecture**: A custom GAN is implemented, consisting of:
-   - Generator
-   - Discriminator
-3. **Training Loop**: The GAN is trained to generate realistic X-ray images over multiple epochs.
+   - Generator  
+   - Discriminator  
+3. **Training Loop**: The GAN is trained to generate realistic X-ray images over multiple epochs.  
 4. **Visualization**: Generated images are saved and displayed after training steps to monitor progress.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.x
-- TensorFlow >= 2.x
-- OpenCV
-- NumPy, Matplotlib, Pandas
+- Python 3.x  
+- TensorFlow >= 2.x  
+- OpenCV  
+- NumPy, Matplotlib, Pandas  
 
 ### Installation
 
@@ -65,7 +67,15 @@ synthetic-xray-gan/
 │
 ├── synthetic_xray_gan.py       # Main GAN training script
 ├── README.md                   # Project documentation
-└── results/                    # (Optional) Generated images output
+├── requirements.txt            # Dependency list
+│
+├── data/                       # (Add your chest X-ray dataset here)
+│   ├── train/
+│   ├── test/
+│   └── val/
+│
+├── results/                    # Generated images during training
+└── models/                     # (Optional) Saved GAN models
 ```
 
 ## 📊 Results
@@ -79,3 +89,11 @@ Inspired by research in privacy-preserving AI and the use of GANs for synthetic 
 ## 📄 License
 
 This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Emeka Philian Ogbonna**  
+📧 ogbonnaemeka665@gmail.com  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/emekaogbonna/)
+
+---
