@@ -119,6 +119,4 @@ Cybersecurity Analyst | Data Enthusiast | AI/ML | Blockchain Innovator
 
 If you’re working on smart contract security, DeFi risk management, or data science for Web3, let’s connect. I’d love to collaborate or contribute to similar initiatives.
 
----
 
-Would you like me to generate a final version of this README with your actual image paths inserted and export it as a file for GitHub? If yes, could you please upload the actual image files or confirm the paths?
