@@ -1,5 +1,3 @@
-Awesome! Here's an enhanced version of your `README.md` with **GitHub-style badges**, a **project structure breakdown**, and a touch more polish — perfect for making your repo stand out.
-
 ---
 
 # 🛒 Amazon Electronics Product Recommender
