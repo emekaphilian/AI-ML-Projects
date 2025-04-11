@@ -83,39 +83,4 @@ This project shows how **statistical methods** can improve smart contract securi
 📬 Connect with me on [LinkedIn](https://www.linkedin.com/in/emeka-ogbonna-946828225/) or check my GitHub for more projects!
 ```
 
----
-
-## 💼 2. LinkedIn Post Version (Professional & Engaging)
-
-Here’s a ready-to-post version for LinkedIn to show off your work:
-
----
-
-🚀 **New Project Drop**: Smart Contract Risk Analysis using Phi Coefficients 🔐📊
-
-In this project, I explored **correlation patterns among smart contract risks** using the Phi coefficient to analyze binary features like:
-
-- `is_closed_source`
-- `is_honeypot`
-- `hidden_owner`
-- `centralized_risk`
-- `reentrancy_without_eth_transfer`
-
-🔎 Key Insights:
-- Closed-source contracts tend to **hide ownership** (Phi: 0.32)
-- Honeypot scams often include **buy taxes** (Phi: 0.38)
-- Anti-whale protections are **strongly linked** to modifiability (Phi: 0.52)
-- Vulnerabilities like **reentrancy** and **encoding issues** often co-exist (Phi: 0.51)
-
-💡 What I learned:
-Understanding these relationships helps auditors, developers, and users proactively spot risky behaviors in DeFi projects.
-
-🛠️ Tools Used: Python, pandas, seaborn, matplotlib
-
-👉 Full project & code: [GitHub Repo](https://github.com/Philianemeka/smart-contract-risk-phi-correlation)  
-🤝 Let’s connect: [Emeka Ogbonna](https://www.linkedin.com/in/emeka-ogbonna-946828225/)
-
-#BlockchainSecurity #DataAnalysis #SmartContracts #DeFi #Python #Cybersecurity #ALXProjects #EmekaOgbonna #OpenSource
-
----
 
