@@ -1,6 +1,6 @@
 
 # 🧠 Building a Generative Adversarial Network with PyTorch (MNIST Dataset)
-
+![Cover Image](images/cover_image.png)  
 This project demonstrates how to build and train a simple Generative Adversarial Network (GAN) using the MNIST dataset. GANs are a class of deep learning models where two neural networks contest with each other to produce more realistic data — in this case, handwritten digits.
 
 ## 🚀 Project Goals
