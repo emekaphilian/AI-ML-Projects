@@ -2,7 +2,7 @@
 # 📊 Smart Contract Vulnerability Insights  
 **Frequency & Correlation Analysis**
 
-![Banner](./cover_image.png)  
+!Advanced Frequency Analysis of Smart Contract Risks/images/cover_image.png  
 * 🔍 A deep dive into smart contract risk patterns to improve blockchain security and audit readiness.*
 
 ---
@@ -34,7 +34,7 @@ This project explores the **frequency** and **correlation** of risk tags found i
 
 ### 🔢 Frequency of Risk Tags
 
-![Risk Frequency Histogram](./images/frequency_histogram.png)
+!Advanced Frequency Analysis of Smart Contract Risks/images/frequency_histogram.png
 
 > *The histogram shows the top 15 most frequent risk tags observed across the smart contracts.*
 
@@ -42,7 +42,7 @@ This project explores the **frequency** and **correlation** of risk tags found i
 
 ### 🔗 Risk Correlation Matrix
 
-![Correlation Matrix](./images/correlation_matrix.png)
+!Advanced Frequency Analysis of Smart Contract Risks/images/correlation_matrix
 
 > *Phi correlation matrix highlighting relationships between vulnerabilities. Strong correlations reveal co-occurrence patterns developers should watch for.*
 
