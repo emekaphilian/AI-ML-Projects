@@ -2,7 +2,7 @@
 # 📊 Smart Contract Vulnerability Insights  
 **Frequency & Correlation Analysis**
 
-![Cover Image](images/cover_image.png)  
+![Cover Image](images/cover_image.png.png)  
 *🔍 A deep dive into smart contract risk patterns to improve blockchain security and audit readiness.*
 
 ---
@@ -34,7 +34,7 @@ This project explores the **frequency distribution** and **correlation** of vuln
 
 ### 📊 Frequency Distribution (Before Cleaning)
 
-![Unfiltered Histogram](images/frequency_histogram.png)
+![Unfiltered Histogram](images/frequency_histogram.png.png)
 
 > *Initial histogram showing the frequency of all risk tags, revealing heavy skew toward a few dominant vulnerabilities.*
 
@@ -42,7 +42,7 @@ This project explores the **frequency distribution** and **correlation** of vuln
 
 ### 🧹 Frequency Distribution (Filtered)
 
-![Filtered Histogram](images/frequency_histogram2.png)
+![Filtered Histogram](images/frequency_histogram2.png.png)
 
 > *After filtering and cleaning, a clearer view of the top 15 vulnerabilities emerges—enabling more focused analysis.*
 
