@@ -110,6 +110,6 @@ Feel free to check out more of my work or connect on [LinkedIn](https://www.link
 ---
 
 ## ⭐ Credits
-
+- Project by Emeka Ogbonna
 - Dataset by Zalando Research
 - Built using TensorFlow and Keras
