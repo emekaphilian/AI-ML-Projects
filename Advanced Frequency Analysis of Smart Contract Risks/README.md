@@ -1,68 +1,76 @@
- 
+
 # 📊 Smart Contract Vulnerability Insights  
 **Frequency & Correlation Analysis**
 
-!Advanced Frequency Analysis of Smart Contract Risks/images/cover_image.png  
-* 🔍 A deep dive into smart contract risk patterns to improve blockchain security and audit readiness.*
+![Cover Image](images/cover_image.png)  
+*🔍 A deep dive into smart contract risk patterns to improve blockchain security and audit readiness.*
 
 ---
 
 ## 🧠 Project Summary
 
-This project explores the **frequency** and **correlation** of risk tags found in smart contracts, offering a data-driven perspective to aid developers, auditors, and DeFi participants in identifying systemic vulnerabilities and co-occurring threats.
+This project explores the **frequency distribution** and **correlation** of vulnerability tags in smart contracts. By leveraging data visualization and statistical techniques, it equips developers, auditors, and DeFi users with a clearer understanding of how security risks cluster and co-occur.
 
 ---
 
 ## 🔍 Objective
 
-- Detect the **most frequent vulnerabilities** in smart contracts.
-- Analyze the **correlation between risk types** using the **Phi coefficient**.
-- Reveal hidden risk patterns that may not be apparent in isolated testing.
+- Identify the **most common smart contract vulnerabilities**.
+- Analyze inter-risk **correlations using the Phi coefficient**.
+- Uncover **co-occurring threat patterns** that evade isolated testing approaches.
 
 ---
 
 ## 🧪 Methodology
 
-- Cleaned and structured a dataset of binary-labeled smart contract risks.
-- Visualized frequency distribution and correlation patterns.
-- Applied **Phi correlation** to uncover co-occurring vulnerabilities.
-- Interpreted results to provide **actionable security insights**.
+- Cleaned and structured a dataset of binary-labeled risk tags from smart contract audits.
+- Visualized risk frequencies and co-occurrence patterns through histograms and a correlation heatmap.
+- Applied **Phi correlation** to detect statistically significant relationships between vulnerabilities.
+- Translated findings into **practical, actionable insights** for smart contract design and auditing.
 
 ---
 
 ## 📸 Visualizations
 
-### 🔢 Frequency of Risk Tags
+### 📊 Frequency Distribution (Before Cleaning)
 
-!Advanced Frequency Analysis of Smart Contract Risks/images/frequency_histogram.png
+![Unfiltered Histogram](images/frequency_histogram.png)
 
-> *The histogram shows the top 15 most frequent risk tags observed across the smart contracts.*
+> *Initial histogram showing the frequency of all risk tags, revealing heavy skew toward a few dominant vulnerabilities.*
+
+---
+
+### 🧹 Frequency Distribution (Filtered)
+
+![Filtered Histogram](images/frequency_histogram2.png)
+
+> *After filtering and cleaning, a clearer view of the top 15 vulnerabilities emerges—enabling more focused analysis.*
 
 ---
 
 ### 🔗 Risk Correlation Matrix
 
-[Advanced Frequency Analysis of Smart Contract Risks/images/correlation_matrix.png](https://github.com/emekaphilian/AI-ML-Projects/tree/main/Advanced%20Frequency%20Analysis%20of%20Smart%20Contract%20Risks)
+![Correlation Matrix](images/correlation_matrix.png)
 
-> *Phi correlation matrix highlighting relationships between vulnerabilities. Strong correlations reveal co-occurrence patterns developers should watch for.*
+> *Phi correlation heatmap illustrating co-occurrence relationships. Strong positive correlations reveal which vulnerabilities tend to appear together within the same contracts.*
 
 ---
 
 ## 📈 Key Insights
 
-- 🔁 **Reentrancy w/o ETH Transfer** is strongly correlated with **Packed Collision** (Φ ≈ 0.51)
-- 🕵️ **Closed Source** contracts often include **Hidden Owner** risks (Φ ≈ 0.32)
-- 🚫 Contracts using **Blacklist functions** show low correlation with **Centralization risks**, challenging common assumptions.
-- 📊 Over 65% of risk occurrences are concentrated in just **three vulnerabilities**
+- 🔁 **Reentrancy w/o ETH Transfer** is strongly correlated with **Packed Collision** (Φ ≈ 0.51).
+- 🕵️ **Closed Source** contracts are commonly associated with **Hidden Owner** risks (Φ ≈ 0.32).
+- 🚫 Surprisingly, **Blacklist Functions** show **low correlation** with **Centralization Risks**, challenging typical assumptions in DeFi risk modeling.
+- 📊 Just **three risk types** account for **over 65%** of total risk tag occurrences, indicating a few systemic vulnerabilities dominate the landscape.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - **Python** (Pandas, Matplotlib, Seaborn)
-- **Phi Correlation Coefficient** (SciPy/Numpy)
-- **Jupyter Notebook**
-- **Data Wrangling & Visualization**
+- **Phi Correlation** via SciPy
+- **Jupyter Notebook** for data wrangling and exploration
+- **Data Cleaning** and **Statistical Visualization**
 
 ---
 
@@ -72,8 +80,10 @@ This project explores the **frequency** and **correlation** of risk tags found i
 .
 ├── README.md
 ├── images/
+│   ├── cover_image.png
 │   ├── frequency_histogram.png
-│   ├── correlation_matrix.png
+│   ├── frequency_histogram2.png
+│   └── correlation_matrix.png
 ├── smart_contract_analysis.ipynb
 ├── data/
 │   └── contract_risks.csv
@@ -83,27 +93,29 @@ This project explores the **frequency** and **correlation** of risk tags found i
 
 ## 🔐 Why It Matters
 
-This analysis equips the Web3 community with better tools to **understand vulnerabilities**, design **safer contracts**, and improve **automated audits**. With new exploits surfacing daily, correlational analysis reveals risk relationships that traditional checks might miss.
+As smart contracts gain adoption, **understanding risk patterns** becomes critical. This analysis enhances security by revealing how vulnerabilities are distributed and interlinked—allowing teams to:
+
+- Design smarter audits
+- Spot red flags early
+- Develop safer contracts for Web3 and DeFi ecosystems
 
 ---
 
 ## 🧾 Conclusion
 
-This project shows how **statistical methods** can improve smart contract security assessments. With insights from the Phi correlation matrix, we can:
+Statistical analysis—especially through frequency trends and Phi correlation—offers powerful tools for smart contract risk management. This project demonstrates:
 
-- Identify hidden or suspicious behaviors in DeFi contracts.
-- Improve audits and transparency.
-- Strengthen design choices with proactive, data-backed decisions.
-
-
+- How vulnerabilities **cluster** in real-world contracts
+- Which risk tags deserve **immediate attention**
+- Why correlation matters in understanding **compound threats**
 
 ---
 
 ## 💡 Next Steps
 
-- Integrate machine learning for risk prediction
-- Expand dataset to include attack history
-- Automate detection of high-risk tag combinations
+- 🔮 Integrate machine learning to predict risk-prone contracts.
+- 🧠 Expand dataset with historical attack incidents.
+- ⚙️ Automate identification of **high-risk combinations** during CI/CD pipelines.
 
 ---
 
@@ -111,12 +123,11 @@ This project shows how **statistical methods** can improve smart contract securi
 
 **Emeka Philian Ogbonna**  
 Cybersecurity Analyst | Data Enthusiast | AI/ML | Blockchain Innovator  
-[LinkedIn](https://www.linkedin.com/in/emekaogbonna/)) • [GitHub](https://github.com/emekaphilian) • [Email](mailto:ogbonnaemeka665@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/emekaogbonna/) • [GitHub](https://github.com/emekaphilian) • [Email](mailto:ogbonnaemeka665@gmail.com)
 
 ---
 
 ## 📢 Get Involved
 
-If you’re working on smart contract security, DeFi risk management, or data science for Web3, let’s connect. I’d love to collaborate or contribute to similar initiatives.
-
-
+If you're working on smart contract security, DeFi safety, or Web3 analytics, I’d love to connect. Let's collaborate to build a safer blockchain future.
+```
