@@ -42,7 +42,7 @@ This project explores the **frequency** and **correlation** of risk tags found i
 
 ### 🔗 Risk Correlation Matrix
 
-!Advanced Frequency Analysis of Smart Contract Risks/images/correlation_matrix
+Advanced Frequency Analysis of Smart Contract Risks/images/correlation_matrix.png
 
 > *Phi correlation matrix highlighting relationships between vulnerabilities. Strong correlations reveal co-occurrence patterns developers should watch for.*
 
