@@ -37,7 +37,7 @@ The model is trained using Binary Cross-Entropy Loss with Adam optimizer. Every 
 
 ## 🖼️ Sample Output
 
-![Generated Digits](generated_output.png)
+![Generated Digits](images/generated_output.png)
 
 > *Note: Save generated images during training or use matplotlib to visualize at each epoch.*
 
