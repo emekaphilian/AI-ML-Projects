@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/8cdd7ff6-86e5-40c8-b24e-6fb356e62cf4)
+![Verfy_pay_banner](https://github.com/user-attachments/assets/e4426ca1-0ba0-4ce9-87a9-f6cc29bf3632)
+
 
 
 ### ✅ `README.md`
@@ -83,7 +84,7 @@ Run the notebook `verify_pay.ipynb`, scroll to the bottom cell, and click the Gr
 
 ## 📸 Sample Screenshots
 
-_(Insert screenshots of the app interface and sample reports here)_
+![image](https://github.com/user-attachments/assets/8cdd7ff6-86e5-40c8-b24e-6fb356e62cf4)
 
 ---
 
