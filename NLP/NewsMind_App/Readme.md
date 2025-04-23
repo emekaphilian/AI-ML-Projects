@@ -1,6 +1,7 @@
 # NewsMind - News Summarizer, Headline Predictor & Sentiment Analyzer
 
-![NewsMind Banner](https://via.placeholder.com/1200x300.png?text=NewsMind+%7C+AI-Powered+News+Insights)
+![NewsMind Banner](https://github.com/user-attachments/assets/772db060-220e-43a1-95af-6290b5eea8c5)
+
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
