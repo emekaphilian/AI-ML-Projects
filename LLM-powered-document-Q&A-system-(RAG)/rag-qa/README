@@ -1,5 +1,3 @@
----
-
 # 📄 LLM-Powered Document Q&A System (RAG)
 
 A simple **Retrieval-Augmented Generation (RAG)** system that lets you upload PDFs or DOCX files, generates embeddings, stores them in a vector database (FAISS/Chroma), and answers questions using **LangChain + OpenAI API**. Includes both a **FastAPI backend** and a **Streamlit dashboard** for easy interaction.
