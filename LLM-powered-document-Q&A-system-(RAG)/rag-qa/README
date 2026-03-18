@@ -1,0 +1,140 @@
+---
+
+# 📄 LLM-Powered Document Q&A System (RAG)
+
+A simple **Retrieval-Augmented Generation (RAG)** system that lets you upload PDFs or DOCX files, generates embeddings, stores them in a vector database (FAISS/Chroma), and answers questions using **LangChain + OpenAI API**. Includes both a **FastAPI backend** and a **Streamlit dashboard** for easy interaction.
+
+---
+
+## 🚀 Features
+- Upload **PDF/DOCX** documents.
+- Automatic text extraction and chunking.
+- Embedding generation with **OpenAI embeddings**.
+- Vector storage with **FAISS** (or Chroma).
+- Question answering powered by **LangChain RetrievalQA + GPT-4**.
+- REST API via **FastAPI**.
+- Interactive dashboard via **Streamlit**.
+- Persistent FAISS index (save/load from disk).
+
+---
+
+## 📂 Project Structure
+```
+rag-qa/
+│
+├── app/                # FastAPI backend
+│   ├── main.py
+│   ├── routes.py
+│   ├── services.py
+│   ├── utils.py
+│
+├── dashboard/          # Streamlit frontend
+│   └── app.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/rag-qa.git
+   cd rag-qa
+   ```
+
+2. **Create a virtual environment (recommended)**
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate   # Windows
+   source .venv/bin/activate # macOS/Linux
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set environment variables**
+   ```bash
+   # Windows (PowerShell)
+   setx OPENAI_API_KEY "your_openai_api_key"
+
+   # macOS/Linux
+   export OPENAI_API_KEY="your_openai_api_key"
+   ```
+
+---
+
+## 🖥️ Getting Started
+
+### Option 1: FastAPI Backend
+Run the API:
+```bash
+uvicorn app.main:app --reload
+```
+
+Endpoints:
+- `POST /upload` → Upload a document (PDF/DOCX).
+- `GET /ask?q=your question` → Ask a question about the uploaded document.
+
+---
+
+### Option 2: Streamlit Dashboard
+Run the dashboard:
+```bash
+streamlit run dashboard/app.py
+```
+
+Open in browser at `http://localhost:8501`:
+- Upload a document.
+- Type a question.
+- Get answers instantly.
+
+---
+
+## 💾 Persisting FAISS Index
+
+By default, FAISS stores embeddings in memory. To avoid rebuilding embeddings every time, you can **save and reload the FAISS index**:
+
+### Save FAISS Index
+```python
+vectorstore.save_local("vectorstore_index")
+```
+
+### Load FAISS Index
+```python
+from langchain.vectorstores import FAISS
+from langchain.embeddings.openai import OpenAIEmbeddings
+
+embeddings = OpenAIEmbeddings()
+vectorstore = FAISS.load_local("vectorstore_index", embeddings)
+```
+
+This way, once you’ve processed a document, you can reuse the stored index across sessions.
+
+---
+
+## 📌 Notes
+- Uses **FAISS** for in-memory vector storage. For persistence, use the save/load methods above or switch to **ChromaDB**.
+- Default chunk size: 1000 characters with 100 overlap.
+- LLM model: `gpt-4` (can be changed to `gpt-3.5-turbo` for cost efficiency).
+
+---
+
+## 🛠️ Extensions
+- Add support for multiple documents.
+- Metadata filtering (e.g., per document).
+- Authentication for API endpoints.
+- Deploy via **Docker**, **Azure App Service**, or **Streamlit Cloud**.
+
+---
+
+## 📜 License
+MIT License — feel free to use and modify.
+
+---
+
+👉 Do you want me to also show you how to **modify your Streamlit `app.py`** so it automatically saves the FAISS index after upload and reloads it on startup?
