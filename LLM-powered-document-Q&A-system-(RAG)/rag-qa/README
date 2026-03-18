@@ -1,6 +1,20 @@
+---
+
 # 📄 LLM-Powered Document Q&A System (RAG)
 
 A simple **Retrieval-Augmented Generation (RAG)** system that lets you upload PDFs or DOCX files, generates embeddings, stores them in a vector database (FAISS/Chroma), and answers questions using **LangChain + OpenAI API**. Includes both a **FastAPI backend** and a **Streamlit dashboard** for easy interaction.
+
+---
+
+## ⚠️ Prerequisites
+
+**This project requires an OpenAI API key to run.** Before getting started:
+
+1. **Sign up for an OpenAI account** at [https://platform.openai.com/signup](https://platform.openai.com/signup)
+2. **Create an API key** at [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+3. **Ensure you have a billing plan** or trial credits available (the project uses these APIs: embeddings, GPT-3.5-turbo/GPT-4)
+
+*For reviewers and recruiters: Please obtain your own OpenAI API key before running this project.*
 
 ---
 
@@ -39,8 +53,8 @@ rag-qa/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/rag-qa.git
-   cd rag-qa
+   git clone https://github.com/emekaphilian/AI-ML-Projects.git
+   cd AI-ML-Projects
    ```
 
 2. **Create a virtual environment (recommended)**
@@ -55,14 +69,24 @@ rag-qa/
    pip install -r requirements.txt
    ```
 
-4. **Set environment variables**
+4. **⚠️ REQUIRED: Set your OpenAI API Key**
+
+   **This system requires a valid OpenAI API key to function.** You must obtain your own key from [OpenAI's platform](https://platform.openai.com/api-keys).
+
+   **Reviewers/Recruiters**: Please sign up for an OpenAI account and create an API key before running this project.
+
    ```bash
    # Windows (PowerShell)
+   $env:OPENAI_API_KEY = "your_openai_api_key"
+   
+   # Or use setx to set it permanently:
    setx OPENAI_API_KEY "your_openai_api_key"
 
    # macOS/Linux
    export OPENAI_API_KEY="your_openai_api_key"
    ```
+
+   ⚠️ **Important**: Without a valid API key, the application will fail with an `insufficient_quota` or `authentication` error.
 
 ---
 
@@ -135,4 +159,12 @@ MIT License — feel free to use and modify.
 
 ---
 
-👉 Do you want me to also show you how to **modify your Streamlit `app.py`** so it automatically saves the FAISS index after upload and reloads it on startup?
+## 👤 Author
+
+**Emeka Philian Ogboona**  
+Full-Stack AI/ML Developer | Passionate about building intelligent systems with LangChain, RAG, and modern AI frameworks.
+
+Connect on [GitHub](https://github.com/emekaphilian/AI-ML-Projects)
+
+---
+
