@@ -1,11 +1,13 @@
 ![Banner](https://github.com/emekaphilian/AI-ML-Projects/blob/main/my_portfolio_github_readme_for_emeka_paschal_ai_ml.png)
 
 
-# 🚀 Emeka Philian Ogbonna — AI/ML Engineer Portfolio
+# AI/ML Engineer Portfolio
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![AI](https://img.shields.io/badge/Focus-AI%2FML-green)
 ![LLMs](https://img.shields.io/badge/LLM-RAG-orange)
 ![Status](https://img.shields.io/badge/Status-Building-brightgreen)
+
+🚀 Building intelligent systems using LLMs, RAG, AI Agents, NLP, Computer Vision, GANs, and modern ML frameworks to solve real-world problems.
 
 Welcome to my AI & Machine Learning project portfolio.
 I build intelligent systems using **LLMs, Retrieval-Augmented Generation (RAG), AI Agents and modern ML tools** to solve real-world problems.
