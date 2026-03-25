@@ -1,4 +1,4 @@
-![Banner](https://github.com/emekaphilian/AI-ML-Projects/blob/main/a_portfolio_github_readme_for_emeka_paschal_ai_ml.png)
+![Banner](https://github.com/emekaphilian/AI-ML-Projects/blob/main/my_portfolio_github_readme_for_emeka_paschal_ai_ml.png)
 
 
 # 🚀 Emeka Philian Ogbonna — AI/ML Engineer Portfolio
