@@ -1,188 +1,82 @@
+# 🚀 Emeka Philian Ogbonna — AI/ML Engineer
+
 ![Banner](https://github.com/emekaphilian/AI-ML-Projects/blob/main/my_portfolio_github_readme_for_emeka_paschal_ai_ml.png)
 
+## 👋 Welcome
+I build intelligent systems using **AI, Machine Learning, and LLM-powered architectures** to solve real-world problems.
 
-# AI/ML Engineer Portfolio
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![AI](https://img.shields.io/badge/Focus-AI%2FML-green)
-![LLMs](https://img.shields.io/badge/LLM-RAG-orange)
-![Status](https://img.shields.io/badge/Status-Building-brightgreen)
-
-🚀 Building intelligent systems using LLMs, RAG, AI Agents, NLP, Computer Vision, GANs, and modern ML frameworks to solve real-world problems.
-
-Welcome to my AI & Machine Learning project portfolio.
-I build intelligent systems using **LLMs, Retrieval-Augmented Generation (RAG), AI Agents and modern ML tools** to solve real-world problems.
-
----
-
-<!-- 🔥 Animated Header -->
-
-<h1 align="center">Hi 👋, I'm Emeka Paschal</h1>
-<h3 align="center">🚀 AI/ML Engineer | LLMs • RAG • Scalable AI Systems</h3>
-
-<!-- 🎯 Typing Animation -->
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C2FF&center=true&vCenter=true&width=600&lines=Building+AI+Products+with+LLMs;RAG+Systems+%7C+Vector+Search+%7C+Embeddings;Turning+Ideas+into+Production+AI+Apps" />
-</p>
+My work focuses on:
+- 🤖 AI Agents
+- 🧠 Large Language Models (LLMs)
+- 🔎 Retrieval-Augmented Generation (RAG)
+- 🧾 Natural Language Processing (NLP)
+- 👁️ Computer Vision
+- 🎨 Generative AI (GANs)
 
 ---
 
-<!-- 🖼 Banner -->
+## 🧠 Tech Stack
 
-<p align="center">
-  <img src="https://github.com/emekaphilian/AI-ML-Projects/blob/main/a_portfolio_github_readme_for_emeka_paschal_ai_ml.png" width="100%" />
-</p>
+### 👨‍💻 Languages
+![Python](https://img.shields.io/badge/Python-Expert-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-Intermediate-yellow)
 
----
+### 🤖 AI / ML
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Advanced-green)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Neural%20Networks-red)
+![NLP](https://img.shields.io/badge/NLP-Transformers-orange)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-CNNs-purple)
+![GANs](https://img.shields.io/badge/GANs-Generative%20Models-black)
 
-## 🧠 About Me
+### 🧠 LLM & AI Systems
+![LLMs](https://img.shields.io/badge/LLMs-GPT%20%7C%20OpenAI-blue)
+![RAG](https://img.shields.io/badge/RAG-Vector%20Search-green)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-Autonomous-orange)
 
-* 💡 Building intelligent systems with **LLMs & RAG**
-* ⚙️ Skilled in **end-to-end AI system design**
-* 🚀 Focused on **real-world, production-ready AI apps**
-* 🌍 Based in Nigeria
+### ⚙️ Frameworks & Tools
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-ML-orange)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-blue)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
+![Streamlit](https://img.shields.io/badge/Streamlit-Apps-red)
+
+### 🗄️ Data & Backend
+![FAISS](https://img.shields.io/badge/FAISS-Vector%20DB-blue)
+![Chroma](https://img.shields.io/badge/Chroma-Embeddings-purple)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🔹 RAG Document Q&A System
+- Upload PDFs and ask intelligent questions
+- Uses embeddings + vector search + LLMs
+- Built with LangChain + Streamlit
 
-🔗 https://github.com/emekaphilian/rag-qa-app
+### 🔹 AI Chat Applications
+- Context-aware chatbots
+- Memory + reasoning + tools
 
-> LLM-powered system that retrieves and answers questions from custom documents using RAG.
-
-**✨ Key Features**
-
-* 📄 Smart document ingestion & chunking
-* 🧠 Embeddings (OpenAI / HuggingFace)
-* 🔍 Vector search with FAISS
-* 💬 Context-aware LLM responses
-* 🎨 Interactive Streamlit UI
-
-**🛠 Tech Stack**
-`Python` • `LangChain` • `FAISS` • `Streamlit` • `OpenAI` • `HuggingFace`
-
----
-
-## 📸 Project Preview
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=RAG+App+Screenshot" width="80%" />
-</p>
-
----
-
-## 🧰 Tech Stack
-
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge\&logo=python)
-![LangChain](https://img.shields.io/badge/LangChain-Framework-green?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/VectorDB-FAISS-orange?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-red?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/LLM-OpenAI-black?style=for-the-badge)
-
-</p>
+### 🔹 ML & Deep Learning Models
+- NLP pipelines
+- Computer vision systems
+- GAN-based generative models
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emekaphilian&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emekaphilian&theme=tokyonight" />
-</p>
+![Stats](https://github-readme-stats.vercel.app/api?username=emekaphilian&show_icons=true&theme=tokyonight)
 
 ---
 
-## 🧠 What I'm Building Next
-
-* 🔥 Advanced RAG (Hybrid Search + Re-ranking)
-* 🧠 Multi-modal AI (Text + Images)
-* ⚡ Production-grade AI APIs
-
----
-
-## 🌐 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/emekaphilian">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://linkedin.com/in/YOUR-LINK">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-  </a>
-</p>
+## 🌍 Connect With Me
+- GitHub: https://github.com/emekaphilian
+- LinkedIn: (add your link)
+- Portfolio: (add later)
 
 ---
 
-## ⭐ Support
-
-If you like my work, give my projects a ⭐ and follow me 🚀
-
----
-on
-
-**🛠 Tech Stack:**
-`Python` • `LangChain` • `FAISS` • `Streamlit` • `OpenAI/HuggingFace`
-
----
-
-### 🔹 (Upcoming) AI Chatbot
-
-Conversational AI system powered by LLMs with memory and context handling.
-
----
-
-### 🔹 (Upcoming) Recommendation System
-
-Machine learning-based recommendation engine for personalized suggestions.
-
----
-
-## 🛠 Skills & Tools
-
-### 🤖 AI / ML
-
-* LLMs, RAG, NLP
-* Embeddings & Vector Search
-* Model Evaluation & Optimization
-
-### ⚙️ Backend
-
-* Python, FastAPI
-* API Design & Integration
-
-### 📊 Data
-
-* Pandas, NumPy
-* Data Processing Pipelines
-
-### 🎨 Frontend
-
-* Streamlit
-* Interactive dashboards
-
----
-
-## 🚀 What I'm Building Next
-
-* Advanced RAG systems with hybrid search
-* Multi-modal AI apps (text + images)
-* Production-ready AI APIs
-
----
-
-## 🌐 Connect With Me
-
-* GitHub: https://github.com/emekaphilian
-* LinkedIn: (add your link here)
-
----
-
-## ⭐️ Support
-
-If you like my work, consider giving a ⭐️ to my repositories!
-
----
+## ⚡ Mission
+> Building AI systems that don’t just respond — but **think, retrieve, and act.**
